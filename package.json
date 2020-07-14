@@ -1,10 +1,10 @@
 {
-  "name": "git",
+  "name": "@ptibbetts/conventional-commits-starter",
   "version": "1.0.0",
-  "description": "My JavaScript Git setup",
-  "main": "index.js",
+  "description": "Starter package to get you up and running with conventional commits",
+  "main": "dist/.huskyrc",
   "scripts": {
-    "install:peerdeps": "npx install-peerdeps ptibbetts/git",
+    "install:peerdeps": "npx install-peerdeps @ptibbetts/conventional-commits-starter",
     "install:commitizen": "commitizen init cz-conventional-changelog --save-dev --save-exact",
     "install:husky": "cp -u ./dist/.huskyrc $INIT_CWD",
     "postinstall": "npm-run-all install:*"
