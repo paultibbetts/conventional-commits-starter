@@ -1,6 +1,6 @@
 {
   "name": "@ptibbetts/conventional-commits-starter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Starter package to get you up and running with conventional commits",
   "main": "dist/.huskyrc",
   "scripts": {
@@ -13,8 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "commitizen": "^4.1.2",
-    "husky": "^4.2.5",
-    "npm-run-all": "^4.1.5"
+    "husky": "^4.2.5"
   },
   "peerDependencies": {
     "commitizen": "^4.1.2",
