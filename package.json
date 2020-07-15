@@ -27,5 +27,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptibbetts/conventional-commits-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ptibbetts/conventional-commits-starter/issues"
+  },
+  "homepage": "https://github.com/ptibbetts/conventional-commits-starter#readme"
 }
