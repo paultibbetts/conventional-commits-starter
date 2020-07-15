@@ -1,13 +1,10 @@
 {
   "name": "@ptibbetts/conventional-commits-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Starter package to get you up and running with conventional commits",
   "main": "dist/.huskyrc",
   "scripts": {
-    "install:peerdeps": "npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers",
-    "install:commitizen": "commitizen init cz-conventional-changelog --save-dev --save-exact",
-    "install:husky": "cp -u ./dist/.huskyrc $INIT_CWD",
-    "postinstall": "node scripts/postinstall.js"
+    "install": "sh scripts/install-peerdeps.sh && sh scripts/huskyrc.sh && sh scripts/commitizen.sh"
   },
   "keywords": [
     "git"
