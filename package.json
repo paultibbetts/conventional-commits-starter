@@ -4,7 +4,7 @@
   "description": "Starter package to get you up and running with conventional commits",
   "main": "dist/.huskyrc",
   "scripts": {
-    "install": "sh scripts/install-peerdeps.sh && sh scripts/huskyrc.sh && sh scripts/commitizen.sh"
+    "install": "sh scripts/postinstall.sh"
   },
   "keywords": [
     "git"
