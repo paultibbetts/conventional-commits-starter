@@ -1,15 +1,19 @@
 #!/bin/bash
 
+# copy husky config
+cp -u ./dist/.huskyrc $1/.huskyrc && echo 'copied .huskyrc'
+
 # install peer dependencies
-if [[ -f  "$INIT_CWD/yarn.lock" ]]
+if [ -f  "$1/yarn.lock" ]
 then
-    cd $INIT_CWD && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers --yarn
+    cd $1 && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers --yarn
 else
-    cd $INIT_CWD && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers
+    cd $1 && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers
 fi
 
-# setup conventional commits
-commitizen init cz-conventional-changelog --save-dev --save-exact
+echo 'installed peer dependencies'
 
-# copy husky config
-cp -u ./dist/.huskyrc $INIT_CWD/.huskyrc
+# setup conventional commits
+commitizen init cz-conventional-changelog --save-dev --save-exact --force
+
+echo 'setup commitizen'
