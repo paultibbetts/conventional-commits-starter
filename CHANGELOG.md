@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.0...v1.2.1) (2020-08-09)
+
+
+### Bug Fixes
+
+* package json version is no longer tracked ([#6](https://github.com/ptibbetts/conventional-commits-starter/issues/6)) ([60a5f79](https://github.com/ptibbetts/conventional-commits-starter/commit/60a5f79a69ea0a40478d3d6fc29d60d98d9d7183))
+
 # [1.2.0](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.1.3...v1.2.0) (2020-08-09)
 
 
