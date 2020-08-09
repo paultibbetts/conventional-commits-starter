@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.1.3...v1.2.0) (2020-08-09)
+
+
+### Bug Fixes
+
+* **commitizen:** commitizen now installs when using yarn ([8b1ad11](https://github.com/ptibbetts/conventional-commits-starter/commit/8b1ad11b904010a1cd700290ea223bf0ff84ef64))
+
+
+### Features
+
+* **postinstall:** use pinst for postinstall ([#3](https://github.com/ptibbetts/conventional-commits-starter/issues/3)) ([c0ca17e](https://github.com/ptibbetts/conventional-commits-starter/commit/c0ca17e454f487e6d968e03e695263be83768afe))
+
 ## [1.1.2](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.1.1...v1.1.2) (2020-07-15)
 
 
@@ -64,6 +76,3 @@
 ### Features
 
 * first release ([c129b39](https://github.com/ptibbetts/conventional-commits-starter/commit/c129b399b5f2113cb4532bcfb76e731d9b3c77f1))
-
-
-
