@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.1...v1.2.2) (2020-08-09)
+
+
+### Bug Fixes
+
+* fixes missing npm token ([#9](https://github.com/ptibbetts/conventional-commits-starter/issues/9)) ([e734c47](https://github.com/ptibbetts/conventional-commits-starter/commit/e734c47be90d18e191726e9c12e20fd17a59ce93))
+
 ## [1.2.1](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.0...v1.2.1) (2020-08-09)
 
 
