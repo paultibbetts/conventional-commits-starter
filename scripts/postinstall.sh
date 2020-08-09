@@ -14,6 +14,17 @@ fi
 echo 'installed peer dependencies'
 
 # setup conventional commits
-commitizen init cz-conventional-changelog --save-dev --save-exact --force
-
-echo 'setup commitizen'
+if [ -f  "$1/yarn.lock" ]
+then
+    if cd $1 && commitizen init cz-conventional-changelog --save-dev --save-exact --yarn; then 
+        echo 'setup commitizen for yarn'
+    else
+        echo 'commitizen already setup'
+    fi
+else
+    if cd $1 && commitizen init cz-conventional-changelog --save-dev --save-exact; then
+        echo 'setup commitizen'
+    else
+        echo 'commitizen already setup'
+    fi
+fi
