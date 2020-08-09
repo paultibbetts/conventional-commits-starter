@@ -1,4 +1,5 @@
 #!/bin/bash
+npx pinst --disable --silent
 
 # copy husky config
 cp -u ./dist/.huskyrc $1/.huskyrc && echo 'copied .huskyrc'
@@ -25,3 +26,5 @@ fi
 
 $cmd >/dev/null 2>&1
 echo $msg
+
+npx pinst --enable --silent
