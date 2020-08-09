@@ -3,28 +3,25 @@
 # copy husky config
 cp -u ./dist/.huskyrc $1/.huskyrc && echo 'copied .huskyrc'
 
+cd $1
+
 # install peer dependencies
+cmd="npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers"
 if [ -f  "$1/yarn.lock" ]
 then
-    cd $1 && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers --yarn
-else
-    cd $1 && npx install-peerdeps @ptibbetts/conventional-commits-starter --only-peers
+    cmd="$cmd --yarn"
 fi
-
-echo 'installed peer dependencies'
+$cmd
 
 # setup conventional commits
+cmd="commitizen init cz-conventional-changelog --save-dev --save-exact"
+msg="setup commitizen"
+
 if [ -f  "$1/yarn.lock" ]
 then
-    if cd $1 && commitizen init cz-conventional-changelog --save-dev --save-exact --yarn; then 
-        echo 'setup commitizen for yarn'
-    else
-        echo 'commitizen already setup'
-    fi
-else
-    if cd $1 && commitizen init cz-conventional-changelog --save-dev --save-exact; then
-        echo 'setup commitizen'
-    else
-        echo 'commitizen already setup'
-    fi
+    cmd="$cmd --yarn"
+    msg="$msg for yarn"
 fi
+
+$cmd >/dev/null 2>&1
+echo $msg
