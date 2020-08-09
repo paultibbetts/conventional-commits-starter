@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# dont run this script again
 npx pinst --disable --silent
 
 # copy husky config
@@ -26,5 +28,3 @@ fi
 
 $cmd >/dev/null 2>&1
 echo $msg
-
-npx pinst --enable --silent
