@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.3...v1.2.4) (2020-08-09)
+
+
+### Bug Fixes
+
+* **postinstall:** disable postinstall scripts after this has ran ([#12](https://github.com/ptibbetts/conventional-commits-starter/issues/12)) ([209ea1f](https://github.com/ptibbetts/conventional-commits-starter/commit/209ea1fd1e673591fd68385f5a8c3dc7ba069933))
+
 ## [1.2.3](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.2...v1.2.3) (2020-08-09)
 
 
