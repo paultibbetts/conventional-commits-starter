@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.2...v1.2.3) (2020-08-09)
+
+
+### Bug Fixes
+
+* **postinstall:** getting stuck in a loop in yarn ([#10](https://github.com/ptibbetts/conventional-commits-starter/issues/10)) ([89094a6](https://github.com/ptibbetts/conventional-commits-starter/commit/89094a6dd95dac55b3bac393e6b58a79aa939e0e))
+
 ## [1.2.2](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.1...v1.2.2) (2020-08-09)
 
 
