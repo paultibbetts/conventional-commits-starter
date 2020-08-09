@@ -6,7 +6,8 @@
   "scripts": {
     "_postinstall": "bash scripts/postinstall.sh $INIT_CWD",
     "prepublishOnly": "pinst --enable",
-    "postpublish": "pinst --disable"
+    "postpublish": "pinst --disable",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "git"
