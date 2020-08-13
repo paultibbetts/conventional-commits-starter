@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ptibbetts/conventional-commits-starter/compare/v2.0.0...v2.0.1) (2020-08-13)
+
+
+### Bug Fixes
+
+* package.json not being updated by semantic-release ([#14](https://github.com/ptibbetts/conventional-commits-starter/issues/14)) ([b0a02f6](https://github.com/ptibbetts/conventional-commits-starter/commit/b0a02f6a90affbf3dd0f16ea6101dfc8614238c8))
+
 # [2.0.0](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.4...v2.0.0) (2020-08-13)
 
 

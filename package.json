@@ -1,6 +1,6 @@
 {
   "name": "@ptibbetts/conventional-commits-starter",
-  "version": "1.2.4",
+  "version": "2.0.1",
   "description": "Starter package to get you up and running with Conventional Commits",
   "main": "dist/index.js",
   "bin": {
