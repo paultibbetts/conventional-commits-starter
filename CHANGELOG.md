@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.4...v2.0.0) (2020-08-13)
+
+
+### Features
+
+* rewrote as npx one off command ([#13](https://github.com/ptibbetts/conventional-commits-starter/issues/13)) ([2c01021](https://github.com/ptibbetts/conventional-commits-starter/commit/2c01021fc50b464c25603f2154527d24f436541b))
+
+
+### BREAKING CHANGES
+
+* You don't install the package any more you use it as `npx
+@ptibbetts/conventional-commits-starter`
+
 ## [1.2.4](https://github.com/ptibbetts/conventional-commits-starter/compare/v1.2.3...v1.2.4) (2020-08-09)
 
 
